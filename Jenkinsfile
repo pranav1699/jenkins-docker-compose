@@ -15,7 +15,7 @@ pipeline {
     stage("printing yaml file") {
       steps {
         bat '''
-          type test.yml 
+          type docker-compose.yaml 
         '''
       }
     }
